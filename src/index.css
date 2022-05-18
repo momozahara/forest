@@ -9,3 +9,16 @@ html, body {
   font-family: 'FC Marshmallow Regular';
   font-size: larger;
 }
+
+body {
+  background-color: #04142d;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

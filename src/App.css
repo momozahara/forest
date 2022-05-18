@@ -9,16 +9,37 @@
 }
 
 .banner-header {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 3rem;
   padding-top: 2rem;
   font-size: 5rem;
-  opacity: .5;
+  opacity: .8;
+}
+
+.navbar {
+  background-color: #00102a;
 }
 
 .navbar-brand {
   font-size: xx-large;
+  color: white !important;
+}
+
+.btn {
+  background-color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  opacity: .5;
+}
+
+.card {
+  background-color: #00183f;
+  color: white;
 }
 
 .card-title {
