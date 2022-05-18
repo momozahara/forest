@@ -13,7 +13,7 @@ export default class About extends React.Component<{}, {}> {
 					<Card.Body>
 						<Card.Title >About</Card.Title>
 						<Card.Text>
-							This is the about page.
+							Who are we? We are the forest.
 						</Card.Text>
 					</Card.Body>
 				</Card>

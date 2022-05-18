@@ -13,7 +13,7 @@ export default class Contact extends React.Component<{}, {}> {
 					<Card.Body>
 						<Card.Title >Contact</Card.Title>
 						<Card.Text>
-							This is the contact page.
+							Want to contact us? We are the forest.
 						</Card.Text>
 					</Card.Body>
 				</Card>

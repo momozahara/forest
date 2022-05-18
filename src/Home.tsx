@@ -13,7 +13,7 @@ export default class Home extends React.Component<{}, {}> {
 					<Card.Body>
 						<Card.Title >Home</Card.Title>
 						<Card.Text>
-							This is the home page.
+							We are the forest.
 						</Card.Text>
 					</Card.Body>
 				</Card>
