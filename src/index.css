@@ -1,11 +1,11 @@
 @font-face {
-	font-family: 'FC Marshmallow Regular';
-	src: url("./font/FC\ Marshmallow\ Regular.ttf");
+  font-family: 'FC Marshmallow Regular';
+  src: url("./font/FC\ Marshmallow\ Regular.ttf");
 }
 
 html, body {
-	margin: 0;
-	padding: 0;
-	font-family: 'FC Marshmallow Regular';
-	font-size: larger;
+  margin: 0;
+  padding: 0;
+  font-family: 'FC Marshmallow Regular';
+  font-size: larger;
 }

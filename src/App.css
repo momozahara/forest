@@ -1,38 +1,38 @@
 .banner {
-	margin-top: 4rem;
-	width: 100%;
-	height: 20rem;
-	background-image: url("https://i.imgur.com/FjhtC9q.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  margin-top: 4rem;
+  width: 100%;
+  height: 20rem;
+  background-image: url("https://i.imgur.com/FjhtC9q.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .banner-header {
-	color: black;
-	text-align: center;
-	font-size: 3rem;
-	padding-top: 2rem;
-	font-size: 5rem;
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 2rem;
+  font-size: 5rem;
 }
 
 .navbar-brand {
-	font-size: xx-large;
+  font-size: xx-large;
 }
 
 .card-title {
-	font-size: xxx-large;
+  font-size: xxx-large;
 }
 
 .card-text {
-	font-size: xx-large;
+  font-size: xx-large;
 }
 
 #content {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin-top: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 2rem;
 }
 
 .fade-enter {
@@ -43,5 +43,5 @@
   transition: opacity 300ms ease-in;
 }
 .fade-exit {
-	display: none;
+  display: none;
 }

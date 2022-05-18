@@ -5,23 +5,21 @@ import Home from './Home';
 import Contact from './Contact';
 import About from './About';
 
-const Router = () => {
-	let location = useLocation();
-	return (
-		<TransitionGroup>
-			<CSSTransition
-				key={location.pathname}
-				classNames='fade'
-				timeout={300}
-			>
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/contact' element={<Contact />} />
-					<Route path='/about' element={<About />} />
-				</Routes>
-			</CSSTransition>
-		</TransitionGroup>
-	);
+export default () => {
+  let location = useLocation();
+  return (
+    <TransitionGroup>
+      <CSSTransition
+        key={location.pathname}
+        classNames='fade'
+        timeout={300}
+      >
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+      </CSSTransition>
+    </TransitionGroup>
+  );
 }
-
-export default Router;
