@@ -15,16 +15,16 @@ export default () => {
         <Navbar.Collapse id='navbarNav'>
           <Nav as='ul'>
             <Nav.Item as='li'>
-              {/* <Nav.Link href='/'>Home</Nav.Link> */}
               <Link className='nav-link' to='/'>Home</Link>
             </Nav.Item>
             <Nav.Item as='li'>
-              {/* <Nav.Link href='/contact'>Contact</Nav.Link> */}
               <Link className='nav-link' to='/contact'>Contact</Link>
             </Nav.Item>
             <Nav.Item as='li'>
-              {/* <Nav.Link href='/about'>About</Nav.Link> */}
               <Link className='nav-link' to='/about'>About</Link>
+            </Nav.Item>
+            <Nav.Item as='li'>
+              <Link className='nav-link' to='/click'>Click</Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

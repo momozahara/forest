@@ -4,6 +4,7 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Home from './Home';
 import Contact from './Contact';
 import About from './About';
+import Click from './Click';
 
 export default () => {
   let location = useLocation();
@@ -18,6 +19,7 @@ export default () => {
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/about' element={<About />} />
+          <Route path='/click' element={<Click />} />
         </Routes>
       </CSSTransition>
     </TransitionGroup>
